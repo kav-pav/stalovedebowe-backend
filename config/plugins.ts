@@ -14,6 +14,38 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "image-optimizer": {
+    enabled: true,
+    config: {
+      include: ["jpeg", "jpg", "png"],
+      exclude: ["gif"],
+      formats: ["webp"],
+      sizes: [
+        {
+          name: "xs",
+          width: 300,
+        },
+        {
+          name: "s",
+          width: 768,
+        },
+        {
+          name: "m",
+          width: 1280,
+        },
+        {
+          name: "l",
+          width: 1920,
+        },
+        {
+          name: "xl",
+          width: 2840,
+        },
+      ],
+      additionalResolutions: [1.5, 3],
+      quality: 70,
+    },
+  },
 
   //
   graphql: {

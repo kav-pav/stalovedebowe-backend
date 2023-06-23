@@ -10016,6 +10016,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.3.tgz#a54f06eb245fdcfef53d56f3c0251f1d5c3d01fe"
   integrity sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==
 
+strapi-plugin-image-optimizer@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-image-optimizer/-/strapi-plugin-image-optimizer-2.0.1.tgz#cb222e80e041289ecc0e5cc1c848f145027498c4"
+  integrity sha512-4zuTgLAnTcOGib02uYhjibruYBqRBNBfCXYn2aPsOddIp+dAEbDYNp4A2Jkp1eSvqk6tCh91upiSWPkEjmUd5Q==
+
 stream-chain@2.2.5, stream-chain@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/stream-chain/-/stream-chain-2.2.5.tgz#b30967e8f14ee033c5b9a19bbe8a2cba90ba0d09"
