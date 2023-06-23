@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "strona_glownas",
+  "info": {
+    "singularName": "strona-glowna",
+    "pluralName": "strona-glownas",
+    "displayName": "Strona-Glowna"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "string"
+    },
+    "Zdjecia": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elementy_reuzywalne_serwis_sekcjas",
+  "info": {
+    "displayName": "Usluga-Sekcja",
+    "icon": "restaurant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "string"
+    }
+  }
+}

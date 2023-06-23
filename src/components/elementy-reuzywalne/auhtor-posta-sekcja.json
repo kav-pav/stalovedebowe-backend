@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_elementy_reuzywalne_auhtor_posta_sekcjas",
+  "info": {
+    "displayName": "AutorPosta-Sekcja",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ZdjecieAutora": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ImieNazwiskoAutora": {
+      "type": "string"
+    },
+    "IkonaDaty": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "DataOpublikowaniaPosta": {
+      "type": "date"
+    },
+    "IkonaCzasuCzytania": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CzasCzytania": {
+      "type": "string"
+    }
+  }
+}

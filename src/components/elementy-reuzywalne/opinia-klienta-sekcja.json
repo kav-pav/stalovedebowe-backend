@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elementy_reuzywalne_opinia_klienta_sekcjas",
+  "info": {
+    "displayName": "OpiniaKlienta-Sekcja",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "Opis": {
+      "type": "string"
+    },
+    "ImieNazwiskoKlienta": {
+      "type": "string"
+    },
+    "MiejsceZamieszkaniaKlienta": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "strona_blogows",
+  "info": {
+    "singularName": "strona-blogow",
+    "pluralName": "strona-blogows",
+    "displayName": "Strona-BlogPostow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "string"
+    },
+    "Zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

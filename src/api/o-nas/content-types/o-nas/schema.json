@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_nass",
+  "info": {
+    "singularName": "o-nas",
+    "pluralName": "o-nass",
+    "displayName": "O-Nas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TytulGlowny": {
+      "type": "string"
+    },
+    "OpisGlowny": {
+      "type": "string"
+    },
+    "ZdjecieGlowne": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "PodTytulPierwszy": {
+      "type": "string"
+    },
+    "PodOpisPierwszy": {
+      "type": "string"
+    },
+    "Uslugi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elementy-reuzywalne.serwis-sekcja"
+    },
+    "PodTytulDrugi": {
+      "type": "string"
+    },
+    "PodOpisDrugi": {
+      "type": "string"
+    },
+    "PodZdjecieDrugie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "JakoscUslugSekcja": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elementy-reuzywalne.jakosc-uslug-sekcja",
+      "max": 4
+    },
+    "PodTytulTrzeci": {
+      "type": "string"
+    },
+    "PodOpisTrzeci": {
+      "type": "string"
+    },
+    "OpinieKlientow": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elementy-reuzywalne.opinia-klienta-sekcja",
+      "min": 2
+    }
+  }
+}

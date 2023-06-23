@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elementy_reuzywalne_jakosc_uslug_sekcjas",
+  "info": {
+    "displayName": "JakoscUslugi-Sekcja",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Ikona": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "string"
+    }
+  }
+}
